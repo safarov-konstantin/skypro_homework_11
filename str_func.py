@@ -1,6 +1,9 @@
 def uppercase_string(string:str):
-    """
-    Возвращает строку в верхнем регистре
-    """
     return string.upper()
-    
+
+
+def title_string(string:str):
+    """
+    Делает заглавными первые буквы каждого слова в строке
+    """
+    return string.title()
